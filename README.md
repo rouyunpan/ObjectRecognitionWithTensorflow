@@ -7,6 +7,7 @@ put the pre-train weight "bvlc_alexnet.npy" in current folder.
 
 1-2 excute "validate_alexnet_on_imagenet.ipynb" on jupyter notebook
 
+
 2.image_process.py
 
 2-1. please download new dataset "train.zip" and upzip in ./data 
@@ -19,6 +20,7 @@ https://www.kaggle.com/c/dogs-vs-cats/data
 Usage: $python image_process.py ./data/train ./data 0.8
 
 train.txt：
+
 /home/tensorflow/Projects/Tensorflow/ObjectRecognitionWithTensorflow/data/train/dog.9528.jpg 1
 /home/tensorflow/Projects/Tensorflow/ObjectRecognitionWithTensorflow/train/cat.9138.jpg 0
 /home/tensorflow/Projects/Tensorflow/ObjectRecognitionWithTensorflow/data/train/cat.2848.jpg 0
@@ -40,7 +42,8 @@ train.txt：
 2017-08-07 15:10:40.314793 Epoch number: 2
 ...
 
-4. validate_alexnet_after_fintune.ipynb
+
+4.validate_alexnet_after_fintune.ipynb
 
 4-2 put new test images in ./input_images_1
 
