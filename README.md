@@ -1,4 +1,4 @@
-# ObjectRecognitionWithTensorflow
+# Object Recognition With Tensorflow
 
 1.validate_alexnet_on_imagenet.ipynb
 
