@@ -1,12 +1,9 @@
 # ObjectRecognitionWithTensorflow
 
-
 1.validate_alexnet_on_imagenet.ipynb
 1-1.validate the alexnet model, please download bvlc_alexnet.npy from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/
 put the pre-train weight "bvlc_alexnet.npy" in current folder.
-
 1-2 excute "validate_alexnet_on_imagenet.ipynb" on jupyter notebook
-
 
 2.image_process.py
 2-1. please download new dataset "train.zip" and upzip in ./data 
@@ -39,3 +36,5 @@ train.txt：
 4. validate_alexnet_after_fintune.ipynb
 4-2 put new test images in ./input_images_1
 4-1 excuting "validate_alexnet_after_fintune.ipynb" on jupyter notebook, and checking the result for new dataset
+
+
